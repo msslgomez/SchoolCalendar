@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B07550AC25D2E87900311214 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = B07550AB25D2E87900311214 /* FSCalendar */; };
+		B0B798AD25C09DB900FD2539 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B798AC25C09DB900FD2539 /* AppDelegate.swift */; };
+		B0B798AF25C09DB900FD2539 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B798AE25C09DB900FD2539 /* SceneDelegate.swift */; };
+		B0B798B125C09DB900FD2539 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B798B025C09DB900FD2539 /* ViewController.swift */; };
+		B0B798B425C09DB900FD2539 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B798B225C09DB900FD2539 /* Main.storyboard */; };
+		B0B798B725C09DB900FD2539 /* UnadecaAgenda.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0B798B525C09DB900FD2539 /* UnadecaAgenda.xcdatamodeld */; };
+		B0B798B925C09DBA00FD2539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0B798B825C09DBA00FD2539 /* Assets.xcassets */; };
+		B0B798BC25C09DBA00FD2539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B798BA25C09DBA00FD2539 /* LaunchScreen.storyboard */; };
+		B0B798C725C09DBB00FD2539 /* UnadecaAgendaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B798C625C09DBB00FD2539 /* UnadecaAgendaTests.swift */; };
+		B0B798D225C09DBB00FD2539 /* UnadecaAgendaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B798D125C09DBB00FD2539 /* UnadecaAgendaUITests.swift */; };
+		B0B798F725C1BB0200FD2539 /* Event+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B798F525C1BB0200FD2539 /* Event+CoreDataClass.swift */; };
+		B0B798F825C1BB0200FD2539 /* Event+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B798F625C1BB0200FD2539 /* Event+CoreDataProperties.swift */; };
+		B0B7990425C1BD8200FD2539 /* CalEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B7990325C1BD8200FD2539 /* CalEvents.swift */; };
+		B0B7990925C1BDAB00FD2539 /* CalEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B7990825C1BDAB00FD2539 /* CalEvent.swift */; };
+		B0B7990E25C1CF6B00FD2539 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B7990D25C1CF6B00FD2539 /* EventCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0B798C325C09DBB00FD2539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0B798A125C09DB900FD2539 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0B798A825C09DB900FD2539;
+			remoteInfo = UnadecaAgenda;
+		};
+		B0B798CE25C09DBB00FD2539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0B798A125C09DB900FD2539 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0B798A825C09DB900FD2539;
+			remoteInfo = UnadecaAgenda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B07550B125D2EF5800311214 /* UnadecaAgenda-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnadecaAgenda-Bridging-Header.h"; sourceTree = "<group>"; };
+		B0B798A925C09DB900FD2539 /* UnadecaAgenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnadecaAgenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B798AC25C09DB900FD2539 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0B798AE25C09DB900FD2539 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B0B798B025C09DB900FD2539 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0B798B325C09DB900FD2539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0B798B625C09DB900FD2539 /* UnadecaAgenda.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UnadecaAgenda.xcdatamodel; sourceTree = "<group>"; };
+		B0B798B825C09DBA00FD2539 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0B798BB25C09DBA00FD2539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0B798BD25C09DBA00FD2539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0B798C225C09DBB00FD2539 /* UnadecaAgendaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnadecaAgendaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B798C625C09DBB00FD2539 /* UnadecaAgendaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnadecaAgendaTests.swift; sourceTree = "<group>"; };
+		B0B798C825C09DBB00FD2539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0B798CD25C09DBB00FD2539 /* UnadecaAgendaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnadecaAgendaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B798D125C09DBB00FD2539 /* UnadecaAgendaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnadecaAgendaUITests.swift; sourceTree = "<group>"; };
+		B0B798D325C09DBB00FD2539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0B798F525C1BB0200FD2539 /* Event+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Event+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B0B798F625C1BB0200FD2539 /* Event+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Event+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B0B7990325C1BD8200FD2539 /* CalEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalEvents.swift; sourceTree = "<group>"; };
+		B0B7990825C1BDAB00FD2539 /* CalEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalEvent.swift; sourceTree = "<group>"; };
+		B0B7990D25C1CF6B00FD2539 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0B798A625C09DB900FD2539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07550AC25D2E87900311214 /* FSCalendar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B798BF25C09DBB00FD2539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B798CA25C09DBB00FD2539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0B798A025C09DB900FD2539 = {
+			isa = PBXGroup;
+			children = (
+				B0B798AB25C09DB900FD2539 /* UnadecaAgenda */,
+				B0B798C525C09DBB00FD2539 /* UnadecaAgendaTests */,
+				B0B798D025C09DBB00FD2539 /* UnadecaAgendaUITests */,
+				B0B798AA25C09DB900FD2539 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0B798AA25C09DB900FD2539 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0B798A925C09DB900FD2539 /* UnadecaAgenda.app */,
+				B0B798C225C09DBB00FD2539 /* UnadecaAgendaTests.xctest */,
+				B0B798CD25C09DBB00FD2539 /* UnadecaAgendaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0B798AB25C09DB900FD2539 /* UnadecaAgenda */ = {
+			isa = PBXGroup;
+			children = (
+				B0B798AC25C09DB900FD2539 /* AppDelegate.swift */,
+				B0B798AE25C09DB900FD2539 /* SceneDelegate.swift */,
+				B0B798FF25C1BB3200FD2539 /* Models */,
+				B0B798B025C09DB900FD2539 /* ViewController.swift */,
+				B07550B125D2EF5800311214 /* UnadecaAgenda-Bridging-Header.h */,
+				B0B798B225C09DB900FD2539 /* Main.storyboard */,
+				B0B798B825C09DBA00FD2539 /* Assets.xcassets */,
+				B0B798BA25C09DBA00FD2539 /* LaunchScreen.storyboard */,
+				B0B798BD25C09DBA00FD2539 /* Info.plist */,
+				B0B798B525C09DB900FD2539 /* UnadecaAgenda.xcdatamodeld */,
+				B0B7990325C1BD8200FD2539 /* CalEvents.swift */,
+				B0B7990825C1BDAB00FD2539 /* CalEvent.swift */,
+				B0B7990D25C1CF6B00FD2539 /* EventCell.swift */,
+			);
+			path = UnadecaAgenda;
+			sourceTree = "<group>";
+		};
+		B0B798C525C09DBB00FD2539 /* UnadecaAgendaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0B798C625C09DBB00FD2539 /* UnadecaAgendaTests.swift */,
+				B0B798C825C09DBB00FD2539 /* Info.plist */,
+			);
+			path = UnadecaAgendaTests;
+			sourceTree = "<group>";
+		};
+		B0B798D025C09DBB00FD2539 /* UnadecaAgendaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0B798D125C09DBB00FD2539 /* UnadecaAgendaUITests.swift */,
+				B0B798D325C09DBB00FD2539 /* Info.plist */,
+			);
+			path = UnadecaAgendaUITests;
+			sourceTree = "<group>";
+		};
+		B0B798FF25C1BB3200FD2539 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B0B798F525C1BB0200FD2539 /* Event+CoreDataClass.swift */,
+				B0B798F625C1BB0200FD2539 /* Event+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0B798A825C09DB900FD2539 /* UnadecaAgenda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0B798D625C09DBB00FD2539 /* Build configuration list for PBXNativeTarget "UnadecaAgenda" */;
+			buildPhases = (
+				B0B798A525C09DB900FD2539 /* Sources */,
+				B0B798A625C09DB900FD2539 /* Frameworks */,
+				B0B798A725C09DB900FD2539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnadecaAgenda;
+			packageProductDependencies = (
+				B07550AB25D2E87900311214 /* FSCalendar */,
+			);
+			productName = UnadecaAgenda;
+			productReference = B0B798A925C09DB900FD2539 /* UnadecaAgenda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0B798C125C09DBB00FD2539 /* UnadecaAgendaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0B798D925C09DBB00FD2539 /* Build configuration list for PBXNativeTarget "UnadecaAgendaTests" */;
+			buildPhases = (
+				B0B798BE25C09DBB00FD2539 /* Sources */,
+				B0B798BF25C09DBB00FD2539 /* Frameworks */,
+				B0B798C025C09DBB00FD2539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0B798C425C09DBB00FD2539 /* PBXTargetDependency */,
+			);
+			name = UnadecaAgendaTests;
+			productName = UnadecaAgendaTests;
+			productReference = B0B798C225C09DBB00FD2539 /* UnadecaAgendaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0B798CC25C09DBB00FD2539 /* UnadecaAgendaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0B798DC25C09DBB00FD2539 /* Build configuration list for PBXNativeTarget "UnadecaAgendaUITests" */;
+			buildPhases = (
+				B0B798C925C09DBB00FD2539 /* Sources */,
+				B0B798CA25C09DBB00FD2539 /* Frameworks */,
+				B0B798CB25C09DBB00FD2539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0B798CF25C09DBB00FD2539 /* PBXTargetDependency */,
+			);
+			name = UnadecaAgendaUITests;
+			productName = UnadecaAgendaUITests;
+			productReference = B0B798CD25C09DBB00FD2539 /* UnadecaAgendaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0B798A125C09DB900FD2539 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					B0B798A825C09DB900FD2539 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					B0B798C125C09DBB00FD2539 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = B0B798A825C09DB900FD2539;
+					};
+					B0B798CC25C09DBB00FD2539 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = B0B798A825C09DB900FD2539;
+					};
+				};
+			};
+			buildConfigurationList = B0B798A425C09DB900FD2539 /* Build configuration list for PBXProject "UnadecaAgenda" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0B798A025C09DB900FD2539;
+			packageReferences = (
+				B07550AA25D2E87900311214 /* XCRemoteSwiftPackageReference "FSCalendar" */,
+			);
+			productRefGroup = B0B798AA25C09DB900FD2539 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0B798A825C09DB900FD2539 /* UnadecaAgenda */,
+				B0B798C125C09DBB00FD2539 /* UnadecaAgendaTests */,
+				B0B798CC25C09DBB00FD2539 /* UnadecaAgendaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0B798A725C09DB900FD2539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B798BC25C09DBA00FD2539 /* LaunchScreen.storyboard in Resources */,
+				B0B798B925C09DBA00FD2539 /* Assets.xcassets in Resources */,
+				B0B798B425C09DB900FD2539 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B798C025C09DBB00FD2539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B798CB25C09DBB00FD2539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0B798A525C09DB900FD2539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B798F825C1BB0200FD2539 /* Event+CoreDataProperties.swift in Sources */,
+				B0B7990E25C1CF6B00FD2539 /* EventCell.swift in Sources */,
+				B0B798B125C09DB900FD2539 /* ViewController.swift in Sources */,
+				B0B7990425C1BD8200FD2539 /* CalEvents.swift in Sources */,
+				B0B7990925C1BDAB00FD2539 /* CalEvent.swift in Sources */,
+				B0B798AD25C09DB900FD2539 /* AppDelegate.swift in Sources */,
+				B0B798F725C1BB0200FD2539 /* Event+CoreDataClass.swift in Sources */,
+				B0B798AF25C09DB900FD2539 /* SceneDelegate.swift in Sources */,
+				B0B798B725C09DB900FD2539 /* UnadecaAgenda.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B798BE25C09DBB00FD2539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B798C725C09DBB00FD2539 /* UnadecaAgendaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B798C925C09DBB00FD2539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B798D225C09DBB00FD2539 /* UnadecaAgendaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0B798C425C09DBB00FD2539 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0B798A825C09DB900FD2539 /* UnadecaAgenda */;
+			targetProxy = B0B798C325C09DBB00FD2539 /* PBXContainerItemProxy */;
+		};
+		B0B798CF25C09DBB00FD2539 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0B798A825C09DB900FD2539 /* UnadecaAgenda */;
+			targetProxy = B0B798CE25C09DBB00FD2539 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0B798B225C09DB900FD2539 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0B798B325C09DB900FD2539 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0B798BA25C09DBA00FD2539 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0B798BB25C09DBA00FD2539 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0B798D425C09DBB00FD2539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "UnadecaAgenda/UnadecaAgenda-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0B798D525C09DBB00FD2539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "UnadecaAgenda/UnadecaAgenda-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0B798D725C09DBB00FD2539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UnadecaAgenda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.UnadecaAgenda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0B798D825C09DBB00FD2539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UnadecaAgenda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.UnadecaAgenda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0B798DA25C09DBB00FD2539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UnadecaAgendaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.UnadecaAgendaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnadecaAgenda.app/UnadecaAgenda";
+			};
+			name = Debug;
+		};
+		B0B798DB25C09DBB00FD2539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UnadecaAgendaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.UnadecaAgendaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnadecaAgenda.app/UnadecaAgenda";
+			};
+			name = Release;
+		};
+		B0B798DD25C09DBB00FD2539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UnadecaAgendaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.UnadecaAgendaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnadecaAgenda;
+			};
+			name = Debug;
+		};
+		B0B798DE25C09DBB00FD2539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UnadecaAgendaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.UnadecaAgendaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnadecaAgenda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0B798A425C09DB900FD2539 /* Build configuration list for PBXProject "UnadecaAgenda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0B798D425C09DBB00FD2539 /* Debug */,
+				B0B798D525C09DBB00FD2539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0B798D625C09DBB00FD2539 /* Build configuration list for PBXNativeTarget "UnadecaAgenda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0B798D725C09DBB00FD2539 /* Debug */,
+				B0B798D825C09DBB00FD2539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0B798D925C09DBB00FD2539 /* Build configuration list for PBXNativeTarget "UnadecaAgendaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0B798DA25C09DBB00FD2539 /* Debug */,
+				B0B798DB25C09DBB00FD2539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0B798DC25C09DBB00FD2539 /* Build configuration list for PBXNativeTarget "UnadecaAgendaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0B798DD25C09DBB00FD2539 /* Debug */,
+				B0B798DE25C09DBB00FD2539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B07550AA25D2E87900311214 /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B07550AB25D2E87900311214 /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B07550AA25D2E87900311214 /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		B0B798B525C09DB900FD2539 /* UnadecaAgenda.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B0B798B625C09DB900FD2539 /* UnadecaAgenda.xcdatamodel */,
+			);
+			currentVersion = B0B798B625C09DB900FD2539 /* UnadecaAgenda.xcdatamodel */;
+			path = UnadecaAgenda.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B0B798A125C09DB900FD2539 /* Project object */;
+}
