@@ -12,7 +12,6 @@ class ViewController: UIViewController, FSCalendarDataSource, FSCalendarDelegate
     @IBOutlet weak var EventsTableView: UITableView!
     @IBOutlet weak var Calendar: FSCalendar!
     
-    fileprivate weak var calendar: FSCalendar!
     
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
@@ -37,11 +36,10 @@ class ViewController: UIViewController, FSCalendarDataSource, FSCalendarDelegate
     
     func initialSetup() {
         //calendar
-        let calendar = FSCalendar(frame: CGRect(x: 0, y: 0, width: 320, height: 300))
-        calendar.dataSource = self
-        calendar.delegate = self
-        view.addSubview(calendar)
-        self.calendar = calendar
+     
+        Calendar.dataSource = self
+        Calendar.delegate = self
+
         
         //tableview
         EventsTableView.delegate = self
